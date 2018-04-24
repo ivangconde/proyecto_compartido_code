@@ -1,10 +1,16 @@
-public class Vehiculo {
+﻿public class Vehiculo {
 	private String color;
 	private int puertas;
 	private int asientos;
 
 	public Vehiculo (String color, int puertas, int asientos) {
 		//Cada alumno deberá crear este constructor
+	    
+	
+	this.color = color;
+	this.puertas = puertas;
+	this.asientos = asientos;
+
 		
 		
 		
@@ -23,6 +29,7 @@ public class Vehiculo {
 	public int getAsientos(){
 		return this.asientos;
 	}
-	
+	public void setAsientos(int asientos) {
+        this.asientos = asientos;
 }
 
