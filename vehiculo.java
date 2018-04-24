@@ -5,18 +5,22 @@
 
 	public Vehiculo (String color, int puertas, int asientos) {
 		//Cada alumno deberá crear este constructor
-	    
-	
-	this.color = color;
-	this.puertas = puertas;
-	this.asientos = asientos;
 
-		
+		this.color=color;
+		this.puertas=puertas;
+		this.asientos=asientos;
+
 		
 		
 	}
 	
 	public Vehiculo () {
+		
+	}
+	 
+	public setPuertas(int puertas){
+		this.puertas=puertas;
+		
 		
 	}
 	
